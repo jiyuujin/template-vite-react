@@ -1,7 +1,7 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - init: yarn
-    command: yarn dev
+  - init: npm install && npm run build
+    command: npm run dev
 ports:
   - port: 3000
     onOpen: open-preview

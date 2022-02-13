@@ -1,6 +1,6 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - init: npm install && npm run build
+  - init: npm install && npm run build && cp .env.example .env
     command: npm run dev
 ports:
   - port: 3000

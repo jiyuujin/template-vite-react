@@ -1,0 +1,6 @@
+{
+  "extends": ["markuplint:recommended"],
+  "parser": {
+    ".[jt]sx?$": "@markuplint/jsx-parser"
+  }
+}

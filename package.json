@@ -4,16 +4,19 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "htmllint": "markuplint **/*.ts **/*.tsx"
   },
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@markuplint/jsx-parser": "^2.2.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.1.4",
+    "markuplint": "^2.5.0",
     "typescript": "^4.5.5",
     "vite": "^2.7.13"
   }

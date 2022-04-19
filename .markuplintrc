@@ -2,5 +2,19 @@
   "extends": ["markuplint:recommended"],
   "parser": {
     ".[jt]sx?$": "@markuplint/jsx-parser"
-  }
+  },
+  "rules": {
+    "required-attr": true
+  },
+  "nodeRules": [
+    {
+      "tagName": "img",
+      "rules": {
+        "required-attr": [
+          "alt",
+          "src"
+        ]
+      }
+    }
+  ]
 }

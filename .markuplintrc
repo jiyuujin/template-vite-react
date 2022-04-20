@@ -15,6 +15,17 @@
           "src"
         ]
       }
+    },
+    {
+      "tagName": "a",
+      "rules": {
+        "required-attr": [
+          {
+            "name": "rel",
+            "value": "/noopener/i"
+          }
+        ]
+      }
     }
   ]
 }

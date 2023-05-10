@@ -1,5 +1,5 @@
 # template-vite-react
 
-GitPod 実行用 URL は [こちら](https://gitpod.io/#https://github.com/jiyuujin/template-vite-react) です
+StackBlitz 実行用 URL は [こちら](https://stackblitz.com/github/jiyuujin/template-vite-react/tree/feature/line-event_2023.3) です。
 
-https://gitpod.io/#https://github.com/jiyuujin/template-vite-react
+https://stackblitz.com/github/jiyuujin/template-vite-react/tree/feature/line-event_2023.3
